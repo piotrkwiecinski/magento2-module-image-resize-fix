@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Helper\Image" type="PiotrKwiecinski\ImageResizeFix\Helper\Image" />
+    <preference for="Magento\Catalog\Model\Product\Image" type="PiotrKwiecinski\ImageResizeFix\Model\Product\Image"/>
+    <preference for="Magento\Catalog\Model\Product\Image\ParamsBuilder" type="PiotrKwiecinski\ImageResizeFix\Model\Product\Image\ParamsBuilder" />
+    <preference for="Magento\Catalog\Block\Product\ImageBlockBuilder" type="PiotrKwiecinski\ImageResizeFix\Block\Product\ImageBlockBuilder" />
+</config>
+
+
+
